@@ -3,34 +3,82 @@
     padding: 0;
 }
 
-body {
+
+/* body {
     width: 100vw;
     height: 100vh;
+} */
+
+
+/* logo */
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
-
-
-/* For Logo */
 
 .logo img {
-    width: 20%;
-    display: block;
-    margin: -20px auto;
+    width: 20rem;
 }
 
 
-/* For nav bar */
+/* navbar */
 
 nav {
+    display: flex;
+    justify-content: space-around;
     background-color: lightgray;
+    width: 100%;
     padding: 1.3em;
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
+    color: black;
+}
+
+
+/* home */
+
+section.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5em;
+}
+
+section.home div input[type="search"] {
+    padding: 0.8em;
+    margin-top: 0.8em;
+    border-radius: 12px;
+    background-image: url(./images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 1.5em;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+section.home img {
+    width: 20em;
+}
+
+
+/* content */
+
+section.content {
+    text-align: center;
+    margin: 5em;
+}
+
+section.content p {
+    margin-top: 1em;
 }
