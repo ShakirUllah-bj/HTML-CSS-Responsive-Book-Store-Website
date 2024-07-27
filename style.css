@@ -359,7 +359,6 @@
     
     div.About-Us {
         float: left;
-        /* margin: 2.5em auto auto 8.5em;*/
         margin-top: 3em;
         white-space: pre;
     }
@@ -386,6 +385,22 @@
     
     footer {
         background-color: rgb(211, 204, 204);
-        margin: -10px;
+        padding: 1em;
         padding-bottom: 2px;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        div.reading-pic img {
+            display: none;
+        }
+        div.main-menu {
+            margin: 2em -3em;
+            float: none;
+            text-align: left;
+        }
+        div.About-Us {
+            margin: 2em;
+            float: none;
+            text-align: left;
+        }
     }
