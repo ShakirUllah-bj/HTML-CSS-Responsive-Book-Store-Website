@@ -259,12 +259,13 @@
         font-size: xx-large;
         letter-spacing: 0.3em;
     }
+    /* Sir here i have a question */
     
     .books {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        height: 60vh;
+        /* height: 60vh; */
     }
     
     .books-card {
@@ -322,4 +323,69 @@
         box-shadow: 2px 2px 5px black, -2px -2px 5px black inset, -2px -2px 5px black inset;
         font-weight: normal;
         font-size: 0.8;
+    }
+    /* connect */
+    
+    .connect div {
+        text-align: center;
+        background-color: rgb(97, 172, 238);
+        padding: 5em;
+        margin: 5em auto;
+        width: 80%;
+        border-radius: 10px;
+    }
+    
+    .connect div a {
+        display: inline-block;
+        margin-top: 2em;
+        margin: 0.1em;
+        font-size: xx-large;
+    }
+    /* footer */
+    
+    div.main-menu {
+        margin-top: 2em;
+        float: left;
+        font-size: normal;
+    }
+    
+    div.main-menu a {
+        display: block;
+        margin: 2em;
+        margin-left: 8em;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    div.About-Us {
+        float: left;
+        /* margin: 2.5em auto auto 8.5em;*/
+        margin-top: 3em;
+        white-space: pre;
+    }
+    
+    div.reading-pic {
+        float: right;
+        margin: 2em;
+        margin-right: 8.5em;
+    }
+    
+    div.reading-pic img {
+        width: 18em;
+        filter: brightness(75%) saturate(75%);
+        border-radius: 8px;
+    }
+    
+    #Copyright {
+        clear: both;
+        display: block;
+        text-align: center;
+        margin: 2em;
+        color: rgb(85, 79, 79);
+    }
+    
+    footer {
+        background-color: rgb(211, 204, 204);
+        margin: -10px;
+        padding-bottom: 2px;
     }
